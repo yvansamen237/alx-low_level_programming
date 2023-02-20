@@ -3,14 +3,13 @@
  * main - print the alphabet in lowercase
  * Return: 0 always
 */
-int main (void)
+int main(void)
 {
-    char i;
-    
-    for (i='a', i<='z', i++)
-    {
-        putchar(i);
-    }
-    putchar('\n');
-    return 0;
+char i;
+for (i = 'a'; i <= 'z'; i++)
+{
+putchar(i);
+}
+putchar('\n');
+return (0);
 }
