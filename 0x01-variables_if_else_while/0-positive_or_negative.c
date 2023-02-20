@@ -7,7 +7,7 @@
  ** Return: Always 0 (Success)
  */
 int main(void)
-iii{
+{
 	int n;
 
 	srand(time(0));
@@ -26,4 +26,4 @@ iii{
 		printf("%d is zero\n", n);
 	}
 	return (0);
-i}
+}
