@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * prints the last digits
+ * main - prints the last digits
  * Return: 0 but a string is printed
  */
 int main(void)
@@ -13,15 +13,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if ((n % 10) > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n",n, n % 10);
+		printf("Last digit of %d is %d and is greater than 5\n", n, n % 10);
 	}
 	else if ((n % 10) < 6 && (n % 10) != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n",n, n % 10);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 	}
 	else
 	{
-		printf("Last digit of %d is %d and is 0\n",n, n % 10);
+		printf("Last digit of %d is %d and is 0\n", n, n % 10);
 	}
 
 	return (0);
